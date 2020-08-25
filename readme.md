@@ -1,0 +1,1 @@
+# Simple Profile Webpage using pure HTML, CSS, and basic Javascript
