@@ -75,23 +75,23 @@ section {
 @keyframes animate {
   0% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/img/cover2_min.jpg');
+      url('../assets/img/cover1_min.jpg');
   }
   20% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/img/cover3_min.jpg');
+      url('../assets/img/cover2_min.jpg');
   }
   40% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/img/cover4_min.jpg');
+      url('../assets/img/cover3_min.jpg');
   }
   60% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/img/cover5_min.jpg');
+      url('../assets/img/cover4_min.jpg');
   }
   80% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/img/cover3_min.jpg');
+      url('../assets/img/cover5_min.jpg');
   }
   100% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -148,7 +148,7 @@ section {
 .animate-scroll {
   opacity: 0;
   transform: translateY(4em);
-  transition: transform 2s 0.25s cubic-bezier(0, 1, 0.3, 1),
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
     opacity 0.3s 0.25s ease-out;
   will-change: transform, opacity;
 }
